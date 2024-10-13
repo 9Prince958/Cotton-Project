@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:  0 0 ;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-weight: 500;
+    
+}
+*::selection{
+    background-color: rgb(149, 233, 248);
+    color: black;
+}
+
+html, body{
+    height: 150%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color:rgb(240, 253, 253); */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: end;
+    /* position: fixed; */
+    
+}
+
+#left{
+    height: 90vh;
+    width: 40%;
+    /* background-color: red; */
+    /* padding: 50px 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+#left h1{
+    width: 50%
+   padding-bottom:;
+    font-family: poppins;
+    font-size: 6vw;
+    line-height: 90px;
+    font-weight: 500;
+    /* padding-top: 250px; */
+}
+#leftbottom{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    height: 30px;
+    width: 120px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#color1{
+    margin: 5px 2px;
+    height: 80%;
+    width: 20px;
+    background-color: red;
+border-radius: 50%;
+}
+
+#color2{
+    margin: 5px 2px;
+    height: 80%;
+    width: 20px;
+    background-color: greenyellow;
+border-radius: 50%;
+}
+
+#leftbottom h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#leftbottom p{
+    width: 70%;
+    margin-top: 10px;
+}
+
+#right{
+    height: 80vh;
+   min-width: 30vw;
+    /* background-color: aqua; */
+    /* padding: 50px 80px; */
+    position: relative;
+}
+
+#righttop{
+    height: 70px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 0 20px;
+  
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.rating h5{
+    font-size: medium;
+}
+.rating i{
+    color: gold;
+}
+#rightimg{
+    height:90%;
+    width: 100%;
+    /* background-color: red; */
+    /* background: url(https://cdn.pixabay.com/photo/2021/11/05/12/27/woman-6771288_640.jpg);
+    background-size: cover;
+    width: 100%; */
+}
+    
+#rightimg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#gola{
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    top: 30%;
+    left: 88%;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
+#right h3{
+    /* font-size: xx-large; */
+    /* background-color: red; */
+    position: absolute;
+    top: 80%;
+    left: -27%;
+    rotate: -90deg;
+    letter-spacing: 1px;
+}
+
+
+*{
+    padding:  0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:600px){
+    #main{
+        height: 100vh;
+        width: 100%;
+        /* background-color:rgb(240, 253, 253); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items:flex-start;
+        /* position: fixed; */
+        
+    }
+    
+#left{
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    /* padding: 50px 80px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+
+
+#left h1{
+    font-family: poppins;
+    font-size: 18vw;
+    line-height: 70px;
+    font-weight: 500;
+    padding-left:50px;
+    padding-top: 250px;
+    
+}
+#leftbottom{
+    padding: 10px 50px;
+
+    height:100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color{
+    margin: 20px 0;
+    height: 25px;
+    width: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#color1{
+    margin: 5px 2px;
+    height: 80%;
+    width: 20px;
+    background-color: red;
+border-radius: 50%;
+}
+
+#color2{
+    margin: 5px 2px;
+    height: 80%;
+    width: 20px;
+    background-color: greenyellow;
+border-radius: 50%;
+}
+
+#leftbottom h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#leftbottom p{
+    font-size: small;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#right{
+    /* padding: 0 50px; */
+    height: 100%;
+   min-width: 30vw;
+    /* background-color: yellow; */
+    padding: 50px 80px;
+    /* position: relative; */
+}
+
+#righttop{
+    height: 70px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 0 0;
+    position: relative;
+    
+}
+.rating{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.rating h5{
+    font-size: medium;
+}
+.rating i{
+    color: gold;
+}
+#rightimg{
+   height: 80%;
+    width: 100%;
+    /* background-color: red; */
+
+    background-size: cover;
+    width: 100%;
+  
+}
+#rightimg img{
+    height: 100%;
+}
+
+#gola{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    top: 30%;
+    left: 70%;
+    /* position: absolute; */
+    border-radius: 50%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-small;
+}
+#right h3{
+    font-size: small;
+    /* background-color: red; */
+    position: absolute;
+    top: 70%;
+    left: -.4%;
+    rotate: -90deg;
+    letter-spacing: .5px;
+}
+
+    
+
+}
